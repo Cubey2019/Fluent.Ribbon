@@ -90,7 +90,7 @@
 
         <Fluent:Ribbon x:Name="ribbon"
                        AutomaticStateManagement="True">
-            <Fluent:Ribbon.ContextualGroups>
+            <!--<Fluent:Ribbon.ContextualGroups>
                 <Fluent:RibbonContextualTabGroup x:Name="tabGroup1"
                                                  BorderBrush="Magenta"
                                                  Background="Magenta"
@@ -110,7 +110,7 @@
                                                  Background="Red"
                                                  Header="MUST BE HIDDEN"
                                                  Visibility="Visible" />
-            </Fluent:Ribbon.ContextualGroups>
+            </Fluent:Ribbon.ContextualGroups>-->
 
             <Fluent:Ribbon.StartScreen>
                 <Fluent:StartScreen x:Name="startScreen">

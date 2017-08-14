@@ -210,7 +210,7 @@ namespace FluentTest
 
         private void OnHelpClick(object sender, RoutedEventArgs e)
         {
-            if (this.tabGroup1.Visibility == Visibility.Visible)
+            /*if (this.tabGroup1.Visibility == Visibility.Visible)
             {
                 this.tabGroup1.Visibility = Visibility.Collapsed;
                 this.tabGroup2.Visibility = Visibility.Collapsed;
@@ -219,7 +219,7 @@ namespace FluentTest
             {
                 this.tabGroup1.Visibility = Visibility.Visible;
                 this.tabGroup2.Visibility = Visibility.Visible;
-            }
+            }*/
         }
 
         private void OnSpinnerValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
