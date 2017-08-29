@@ -244,6 +244,7 @@ namespace Fluent
             }
 
             parentWindow.WindowState = WindowState.Maximized;
+            parentWindow.SizeToContent = SizeToContent.Manual;
         }
 
         private void RestoreClick(object sender, RoutedEventArgs e)

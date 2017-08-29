@@ -72,9 +72,15 @@
                 && window.ResizeMode != ResizeMode.NoResize)
             {
                 e.Handled = true;
-                window.WindowState = window.WindowState == WindowState.Maximized
-                                         ? WindowState.Normal
-                                         : WindowState.Maximized;
+                if (window.WindowState == WindowState.Normal)
+                {
+                    window.WindowState = WindowState.Maximized;
+                    window.SizeToContent = SizeToContent.Manual;
+                }
+                else
+                {
+                    window.WindowState = WindowState.Normal;
+                }
             }
         }
 
